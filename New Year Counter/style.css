@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  background-color: slateblue;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+}
+
+#year {
+  font-family: Impact, 'Arial Narrow Bold';
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+
+.container {
+  margin-top: 0;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 1000px;
+  padding-right: 1000px;
+  margin-top: 30px;
+}
+
+.container p {
+  font-size: 15px;
+  margin: 5px 30px;
+  letter-spacing: 1px;
+}
+
+.container span {
+  font-size: 35px;
+}
