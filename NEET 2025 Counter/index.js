@@ -16,6 +16,4 @@ function calculateDate() {
   hoursEl.innerHTML = Math.floor((remainingMilli % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   minutesEl.innerHTML = Math.floor(remainingMilli % (1000 * 60 * 60) / (1000 * 60));
   secondsEl.innerHTML = Math.floor(remainingMilli % (1000 * 60) / (1000));
-
-  console.log((remainingMilli % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 }
