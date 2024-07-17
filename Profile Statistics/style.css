@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: yellow;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -30px;
+}
+
+p {
+  font-weight: lighter;
+  margin: 15px 15px;
+}
+
+.website img {
+  top: -25px;
+}
+
+span {
+  color: green;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 600px;
+}
+
+.website, .experience, .apps {
+  border: 2px solid green;
+  padding: 2px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
