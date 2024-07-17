@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: lightpink;
+  color: white;
+}
+
+h1 {
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+.btn {
+  padding: 30px 40px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.crash {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/188/188717.png");
+}
+
+.kick {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/12331/12331476.png");
+}
+
+.snare {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/9288/9288605.png");
+}
+
+.tom {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/8845/8845857.png");
+}
+
+@keyframes shake {
+  0% { transform: translateX(0);}
+  25% { transform: translateX(-2px) rotate(-2deg);}
+  50% { transform: translateX(2px) rotate(2deg);}
+  75% { transform: translateX(-2px) rotate(-2deg);}
+  100% { transform: translateX(0);}
+}
+
+.vibrating {
+  animation: shake 1s ease-in-out;
+}
