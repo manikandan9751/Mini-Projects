@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier;
+  background-color: rgb(128, 167, 171);
+  color: rgb(0, 128, 255);
+}
+
+.container {
+  background-color: rgba(161, 249, 233, 0.564);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0,0,0,0.3);
+  width: 600px;
+  height: 300px;
+}
+
+h1 {
+  padding: 20px 50px;
+}
+
+.value-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.value-container {
+  font-weight: bold;
+}
+
+.celsius {
+  position: relative;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  right: 10px;
+}
+
+.fahrenheit {
+  position: relative;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  right: 10px;
+}
+
+.kelvin {
+  position: relative;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  right: 10px;
+}
+
+.value-container p {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+input {
+  position: absolute;
+  right: 35px;
+  width: 200px;
+  height: 28px;
+  background-color: rgba(191, 236, 230, 0.753);
+  border-color: rgba(43, 79, 79, 0.352);
+  cursor: pointer;
+}
